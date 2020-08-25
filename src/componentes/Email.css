@@ -1,0 +1,15 @@
+.Grid-Email{
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+    height: 80vh;
+    background-color: #2d3436;
+    border: 2px none;
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, .2);
+    flex-direction: column;
+}
+
+.Input-Emails{
+    display: flex;
+    flex-direction: row;
+}

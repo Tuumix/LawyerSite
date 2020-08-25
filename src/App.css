@@ -11,4 +11,9 @@
   width: 100%;
   height: 100vh;
   background-color: #2d3436;
+  overflow-y: hidden;
+}
+
+p{
+  font-family: "Montserrat";
 }

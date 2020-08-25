@@ -6,11 +6,40 @@
     flex-direction: column;
 }
 
-.Section{
+.Block{
     display: flex;
-    width: 50%;
-    height: 40vh;
-    background-color: purple;
-    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 3px solid #f39c12;
 }
 
+.Block-Child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 80vh;
+    background-color: #2d3436;
+    border: 2px none;
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, .2);
+}
+
+.Div-Scroll{
+    margin-left: 100vh;
+}
+
+ion-icon {
+    background-color: #f39c12;
+}
+
+.Scroll-Top{
+    margin-left: 165vh;
+}
+
+
+p{
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+.grid-text{
+    display: flex;
+    height: 40vh;
+    width: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-titulo{
+    font-size: 40px;
+}
+
+p{
+    color: #dfe6e9;
+}
