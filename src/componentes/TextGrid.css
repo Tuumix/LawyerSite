@@ -5,12 +5,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-color: 'purple';
 }
 
 .sobre-titulo{
     font-size: 40px;
+    color:#2d3436;
 }
 
 p{
-    color: #dfe6e9;
+    color: #2d3436;;
 }

@@ -1,0 +1,12 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height: 3vh;
+}
+
+h1{
+    color:#f39c12;
+    font-size: 20px;
+}

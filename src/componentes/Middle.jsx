@@ -9,15 +9,16 @@ export default () => {
     return (
         <div className="Middle">
             <Fragment>
-                <div className="Block" id="bio" top>
-                    <div className="Block-Child">
-                        <TextGrid/>
-                    </div>
-                </div>
+                <Fade right>
+                    <div className="Block" id="bio" top>
+                        <div className="Block-Child">
+                            <TextGrid/>
+                        </div>
+                    </div>      
+                </Fade>
                 <Fade left> 
                     <div className="Block" id="contato">
                         <Email/>
-                        <a className="Scroll-Top" onClick={() => scroll.scrollToTop()}><ion-icon name="chevron-up" size="large"></ion-icon></a>
                     </div>
                 </Fade>
             </Fragment>

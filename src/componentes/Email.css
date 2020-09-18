@@ -1,12 +1,28 @@
+h1{
+    color: #2d3436;
+    font-size: 30px;
+}
+
 .Grid-Email{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 60%;
     height: 80vh;
-    background-color: #2d3436;
+    background-color: #f39c12;
     border: 2px none;
     box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, .2);
     flex-direction: column;
+    padding: 30px;
+}
+
+.input-grid{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.margin{
+    margin: 1em 0;
 }
 
 .Input-Emails{

@@ -4,6 +4,7 @@
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .Block{
@@ -22,9 +23,11 @@
     justify-content: center;
     width: 60%;
     height: 80vh;
-    background-color: #2d3436;
+    background-color: #f39c12;
     border: 2px none;
     box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, .2);
+    text-overflow: inherit;
+    overflow: hidden;
 }
 
 .Div-Scroll{
